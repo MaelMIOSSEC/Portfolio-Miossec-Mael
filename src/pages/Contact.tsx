@@ -35,7 +35,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <form action="https://formspree.io/f/xjgzenod" method="POST" className="flex flex-col gap-3">
+                    <form id='form-contact' action="https://formspree.io/f/xjgzenod" method="POST" className="flex flex-col gap-3">
                         <div className="flex flex-row gap-3">
                             <div className="flex flex-col border border-[#4A5D7A] rounded-[5px] bg-[#0D1321] px-3 py-2">
                                 <label htmlFor="first-name" className="text-[9px] text-[#4A5D7A] font-mono tracking-[1px] uppercase">

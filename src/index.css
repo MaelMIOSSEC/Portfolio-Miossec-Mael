@@ -32,3 +32,50 @@
     color: #070B14;
     border-color: #070B14;
 }
+
+@media screen and (max-width: 430px) {
+    #presentation {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #command-terminal {
+        display: none;
+    }
+
+    #technical-stack {
+        flex-direction: column;
+    }
+
+    #technical-stack-type {
+        width: 100%;
+    }
+
+    #progression-stack {
+        flex-direction: column;
+    }
+
+    #progression-stack-type {
+        width: 100%;
+    }
+
+    #main-projects {
+        flex-direction: column;
+    }
+
+    #project {
+        width: 100%;
+    }
+
+    #project-description {
+        width: 90%;
+    }
+
+    #side-projects {
+        display: none;
+    }
+
+    #form-contact {
+        display: none;
+    }
+}

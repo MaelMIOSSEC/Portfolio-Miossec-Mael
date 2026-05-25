@@ -10,7 +10,7 @@ export default function About() {
                 backgroundSize: '28px 28px'
             }}>
             <div className='flex flex-row items-center justify-center h-1/1'>
-                <div className="flex flex-col w-1/2">
+                <div id='presentation' className="flex flex-col w-1/2">
                     <div className='text-[#41AB98] uppercase font-mono tracking-[2px] text-xs mb-3.75'>{"{ Développeur Web & Logiciel }"}</div>
                     <div className='text-[#EEF2FF] uppercase text-[54px] font-extrabold tracking-[-2.5px] font-serif leading-[0.97]'>Maël</div>
                     <div className='text-[#E8B86D] uppercase text-[54px] font-extrabold tracking-[-2.5px] font-serif leading-[0.97] mb-3.75'>Miossec</div>
@@ -48,7 +48,7 @@ export default function About() {
                         </span>
                     </div>
                 </div>
-                <div className='flex flex-col w-1/1 max-w-80 bg-[#0D1321] max-h-70 rounded-lg border-[#1C2840] border px-10 py-7  text-[15px] font-mono'>
+                <div id='command-terminal' className='flex flex-col w-1/1 max-w-80 bg-[#0D1321] max-h-70 rounded-lg border-[#1C2840] border px-10 py-7  text-[15px] font-mono'>
                     <div className='flex flex-row gap-1.25 mb-3.75'>
                         <div className='w-2 h-2 bg-[#FF5F57] rounded-[10px]'></div>
                         <div className='w-2 h-2 bg-[#FEBC2E] rounded-[10px]'></div>

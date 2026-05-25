@@ -9,8 +9,8 @@ export default function Projects() {
                     <span className="text-[#EEF2FF] text-[20px] font-bold font-serif tracking-[-0.5px]">Projets</span>
                     <span className="text-[#4A5D7A] text-[12px]">Académiques & personnels</span>
                 </div>
-                <div className="flex flex-row gap-2.5 py-3.75">
-                    <div className="flex flex-col w-1/2 border border-[#4A5D7A] rounded-xl bg-[#0D1321] overflow-hidden">
+                <div id='main-projects' className="flex flex-row gap-2.5 py-3.75">
+                    <div id='project' className="flex flex-col w-1/2 border border-[#4A5D7A] rounded-xl bg-[#0D1321] overflow-hidden">
                         <div className="h-50 w-1/1 bg-[#131D2E] relative items-center justify-center">
                             <div className="bg-[url('/Deskampet.webp')] bg-cover bg-center h-1/1 w-full"></div>
                             <div className="text-[#E8B86D] top-2.5 left-3.5 border border-[rgba(232,184,109,0.12)] bg-[#2D2F35] text-[9px] px-2 py-0.5 rounded-[3px] font-mono tracking-[1px] absolute">FEATURED</div>
@@ -18,7 +18,7 @@ export default function Projects() {
                         <div className="flex flex-row px-3.75 py-2.5 items-center justify-between">
                             <div className="flex-flex-col">
                                 <span className="text-[#EEF2FF] text-[15px] font-semibold mb-1.25 font-serif">Deskampet</span>
-                                <p className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Site vitrine réalisé en collaboration avec un membre de ma famille possédant une entreprise de PetSitting nommée Deskampet.</p>
+                                <p id='project-description' className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Site vitrine réalisé en collaboration avec un membre de ma famille possédant une entreprise de PetSitting nommée Deskampet.</p>
                                 <div className='flex flex-row gap-2.5'>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>React</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>TypeScript</span>
@@ -42,7 +42,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col w-1/2 border border-[#4A5D7A] rounded-xl bg-[#0D1321] overflow-hidden">
+                    <div id='project' className="flex flex-col w-1/2 border border-[#4A5D7A] rounded-xl bg-[#0D1321] overflow-hidden">
                         <div className="h-50 w-1/1 bg-[#131D2E] relative items-center justify-center">
                             <div className="bg-[url('/kanban.webp')] bg-cover bg-center h-1/1 w-full"></div>
                             <div className="text-[#E8B86D] top-2.5 left-3.5 border border-[rgba(232,184,109,0.12)] bg-[#2D2F35] text-[9px] px-2 py-0.5 rounded-[3px] font-mono tracking-[1px] absolute">FEATURED</div>
@@ -50,7 +50,7 @@ export default function Projects() {
                         <div className="flex flex-row px-3.75 py-2.5 items-center justify-between">
                             <div className="flex-flex-col">
                                 <span className="text-[#EEF2FF] text-[15px] font-semibold mb-1.25 font-serif">StackBan</span>
-                                <p className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Ce projet est une application de gestion de tâches de type Kanban distribuée, combinant un frontend React/Vite propulsé par Deno. Son architecture s'appuie sur un serveur d'authentification Deno (JWT) et un serveur de données Java Spring Boot (SQL).</p>
+                                <p id='project-description' className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Ce projet est une application de gestion de tâches de type Kanban distribuée, combinant un frontend React/Vite propulsé par Deno. Son architecture s'appuie sur un serveur d'authentification Deno (JWT) et un serveur de données Java Spring Boot (SQL).</p>
                                 <div className='flex flex-row gap-2.5'>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>React</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>TypeScript</span>
@@ -76,7 +76,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-row gap-2.5'>
+                <div id='side-projects' className='flex flex-row gap-2.5'>
                     <div className="flex flex-col w-1/3 border border-[#4A5D7A] rounded-xl bg-[#0D1321] overflow-hidden">
                         <div className="h-50 w-1/1 bg-[#131D2E] relative items-center justify-center">
                             <div className="bg-[url('/FitPlace.webp')] bg-cover bg-center h-1/1 w-full"></div>
