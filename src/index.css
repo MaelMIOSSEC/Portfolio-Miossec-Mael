@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#cursor {
+    animation: blink 1s step-end infinite;
+}
+
+#contact-button,
+#projects-button {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#projects-button:hover {
+    background-color: #070B14;
+    color: #E8B86D;
+    border-color: #E8B86D;
+}
+
+#contact-button:hover {
+    background-color: #8699B9;
+    color: #070B14;
+    border-color: #070B14;
+}
