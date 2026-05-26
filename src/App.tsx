@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import NavBar from './components/NavBar'
 import About from './pages/About'
 import Stack from './pages/Stack'
@@ -17,6 +18,7 @@ function App() {
       <hr className='mx-20 text-[#1C2840]' />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 }
