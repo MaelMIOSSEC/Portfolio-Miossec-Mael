@@ -19,7 +19,7 @@ export default function Projects() {
                             <div className="flex-flex-col">
                                 <span className="text-[#EEF2FF] text-[15px] font-semibold mb-1.25 font-serif">Deskampet</span>
                                 <p id='project-description' className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Site vitrine réalisé en collaboration avec un membre de ma famille possédant une entreprise de PetSitting nommée Deskampet.</p>
-                                <div className='flex flex-row gap-2.5'>
+                                <div id='project-stack' className='flex flex-row gap-2.5'>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>React</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>TypeScript</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>Tailwind</span>
@@ -51,7 +51,7 @@ export default function Projects() {
                             <div className="flex-flex-col">
                                 <span className="text-[#EEF2FF] text-[15px] font-semibold mb-1.25 font-serif">StackBan</span>
                                 <p id='project-description' className="text-[#8B9FBF] text-[12px] leading-[1.55] mb-2.5">Ce projet est une application de gestion de tâches de type Kanban distribuée, combinant un frontend React/Vite propulsé par Deno. Son architecture s'appuie sur un serveur d'authentification Deno (JWT) et un serveur de données Java Spring Boot (SQL).</p>
-                                <div className='flex flex-row gap-2.5'>
+                                <div id='project-stack' className='flex flex-row gap-2.5'>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>React</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>TypeScript</span>
                                     <span className='text-[#44AE9C] bg-[#131D2E] border border-[#243352] text-[12px] px-1.75 py-0.5 rounded-[3px]'>MongoDB</span>
