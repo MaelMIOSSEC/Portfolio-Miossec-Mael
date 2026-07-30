@@ -21,7 +21,7 @@ export default function NavBar() {
                         <a href="#projects" className="hover:text-sky-400 transition-colors">Projets</a>
                         <a href="#contact" className="hover:text-sky-400 transition-colors">Contact</a>
                         <div className="border border-solid rounded-sm px-3.75 py-0.75 items-center text-[#E8B86D] hover:cursor-pointer">
-                            <a className='flex flex-row' href="/cv-miossec-mael.pdf" download="CV_Mael_Miossec.pdf" target="_blank">
+                            <a className='flex flex-row' href="/CV-Miossec-Maël.pdf" download="CV-Miossec-Maël.pdf" target="_blank">
                                 <p>CV</p>
                                 <ArrowDown className='h-4.75' />
                             </a>
@@ -55,7 +55,7 @@ export default function NavBar() {
                     <a href="#projects" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md hover:bg-slate-900">Projets</a>
                     <a href="#contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md hover:bg-slate-900">Contact</a>
                     <div className="border border-solid w-[76.25px] h-8 rounded-sm px-3.75 py-0.75 items-center text-[#E8B86D] hover:cursor-pointer">
-                        <a className='flex flex-row' href="/cv-miossec-mael.pdf" download="CV_Mael_Miossec.pdf" target="_blank">
+                        <a className='flex flex-row' href="/CV-Miossec-Maël.pdf" download="CV-Miossec-Maël.pdf" target="_blank">
                             <p>CV</p>
                             <ArrowDown className='h-5.25' />
                         </a>
